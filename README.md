@@ -10,8 +10,11 @@ ___
 - **Visual studio code**
 - **Google firebase**
 
+## Site do projeto:
+https://projetochevrolet.web.app
+
 ## Sobre o projeto
-<p>O objetivo para este projeto, é construir um <strong>Sistema WEB</strong> publica-lo em um provedor Cloud, no meu caso, Google firebase e versionar no Github.</p>
+<p>O objetivo deste projeto, é construir um <strong>Sistema WEB</strong> publica-lo em um provedor Cloud, no meu caso, Google firebase e versionar no Github.</p>
 
 ## Etapas
 1. Montar a estrutura html.
