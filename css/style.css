@@ -1,0 +1,682 @@
+html,
+body,
+ul,
+li,
+a,
+p,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    }
+html {
+    font-size: 62.5%;
+    } 
+
+ul {
+    list-style: none;
+    }
+a {
+    color: black;
+    text-decoration: none;
+    }
+/* MOBILE FIRST */
+.fas {  
+    margin: 0px 2px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+.fas:hover{
+    cursor: pointer;
+    color: #f1c055;
+}
+.far {
+    margin: 0px 3px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.far:hover{
+    cursor: pointer;
+    color: #f1c055;
+}
+.fa-whatsapp {
+    display: none;
+}
+.header {
+    background-color: #f1c055;
+    z-index: 9999;
+    }
+.container {
+    max-width: 320px;
+    margin: 0 auto;
+    width: 95%;
+    }
+      /*👉 NAVBAR👈*/
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background: #f1c055;
+    z-index: 9999;
+    }
+
+/* MENU-HAMBURGUER */
+.icon {
+    cursor: pointer;
+    z-index: 9999;
+    }
+
+.um {
+    background-color: #383938;
+    width: 25px;
+    height: 3px;
+    transition: 0.3s;
+    }
+
+.dois {
+    background-color: #383938;
+    width: 25px;
+    height: 3px;
+    margin-top: 2px;
+    transition: 0.3s;
+    }
+
+.tres {
+    background-color: #383938;
+    width: 25px;
+    height: 3px;
+    margin-top: 2px;
+    transition: 0.3s;
+    }
+
+/* LOGOMARCA */
+.logomarca {
+    padding: 10px 0;
+    max-width: 55%;
+    }
+
+/* MENU */
+.ativo.menu {
+    background-color: white;
+    width: 90%;
+    height: 45vh;
+    transform: translate(20px, 85px);
+    box-shadow: 5px 10px 248px 20px #00000073;
+    border-radius: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: pulse 0.7s;
+    }
+.ativo.menu li:hover {
+    background: rgb(69, 206, 247);
+    transition-duration: 0.4s;
+    border-radius: 5px;
+    box-shadow:  1px 1px 5px 10px rgb(69, 206, 247);
+    }
+@keyframes pulse {
+    0% {
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    100% {
+        background-color: rgba(255, 255, 255, 0.981);
+    }
+    }
+.ativo.menu li+li {
+    margin-top: 20px;
+    
+    }
+.ativo.menu a {
+    color: rgb(43, 40, 40);
+    font-size: 2.0rem;
+    }
+
+/* MENU-HAMBURGUER VIRA UM X */
+.icon-x .um {
+    opacity: 0;
+    }
+.icon-x .dois {
+    transform: rotate(45deg) translate(4px, 4px);
+    background-color: rgb(26, 24, 24);
+    }
+.icon-x .tres {
+    transform: rotate(-45deg) translate(-0px, -0px);
+    background-color: #e8c376;
+    }
+@media (max-width: 1024px) {
+    .menu {
+        color: black;
+        display: none;
+    }
+    }
+      /*👉 SECTION 1👈*/
+.back1 {
+    width: 100%;
+    height: 100%;
+    background: #f1c055;
+    }
+.back1-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    }
+.back1-flex h1 {
+    margin-top: 20px;
+    font-size: 2.5rem;
+    }
+
+.back1-flex p {
+    color: rgb(63, 61, 61);
+    font-size: 1.5rem;
+    margin-top: 20px;
+    max-width: 60%;
+    }
+
+.back1-flex a:hover {
+    box-shadow:  1px 2px 10px 10px rgba(69, 206, 247, 0.467);
+    }
+.back1-flex a {
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: rgb(69, 206, 247);
+    padding: 15px 30px;
+    }
+
+
+.back1-flex img {
+    margin-top: 20px;
+    max-width: 80%;
+    }
+  /*👉 SECTION 2👈*/
+.back2 {
+    width: 100%;
+    height: 60vh;
+    }
+
+.back2-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    }
+
+.back2-flex h1 {
+ color: #55b2da; 
+ margin-top: 20px;  
+ font-size: 2.3rem;
+    }
+.back2-flex h2 {
+    text-align: left;
+    margin-top: 20px;  
+    font-size: 1.4rem;
+    }
+
+.back2-flex img {
+    margin-top: 10px;  
+    max-width: 80%;
+    }
+.back2-flex a {
+        font-size: 1.5rem;
+        color: white;
+        border-radius: 5px;
+        margin-top: 15px;
+        background: rgb(69, 206, 247);
+        padding: 10px 20px;
+    }
+    
+.back2-flex a:hover {
+        box-shadow:  1px 2px 10px 10px rgba(69, 206, 247, 0.604);
+    }
+  /*👉 SECTION 3👈*/
+.back3 {
+    background: #f1c055;
+    width: 100%;
+    height: 35vh;
+    }
+
+.back3-flex {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    }
+
+.back3-flex h1 {
+    color: #55b2da; 
+    margin-top: 20px;  
+    font-size: 2.3rem;
+    }
+
+.back3-flex h3 {
+    text-align: center;
+    margin-top: 20px;  
+    font-size: 1.4rem;
+    }
+
+.back3-flex a {
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: rgb(69, 206, 247);
+    padding: 10px 20px;
+    }
+
+.back3-flex a:hover {
+    box-shadow:  1px 2px 10px 10px rgba(69, 206, 247, 0.604);
+    }
+  /*👉 SECTION 4👈*/
+.back4 {
+    width: 100%;
+    height: 75vh;
+
+    }
+.back4-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+   
+    }
+
+.back4-flex h1 {
+    color: #55b2da; 
+    margin-top: 20px;  
+    font-size: 2.3rem;
+    }
+
+.back4-flex input {
+    margin-top: 10px;
+    outline: none;
+    border-style: hidden;
+    border-bottom: 1px solid  rgb(69, 206, 247);
+    }
+
+.back4-flex input:hover {
+   
+    border-radius: 5px;
+    border: solid rgb(69, 206, 247);
+    box-shadow:  1px 2px 10px 4px rgba(69, 206, 247, 0.467);
+   color: rgb(69, 206, 247);
+    }
+
+.back4-flex textarea {
+    margin-top: 10px;
+    border-style: hidden;
+    border-bottom: 1px solid  rgb(69, 206, 247);
+    }
+.back4-flex textarea:hover {
+    outline: solid rgb(69, 206, 247);
+    box-shadow:  1px 2px 10px 4px rgba(69, 206, 247, 0.467);
+    }
+.botao {
+    margin-top: 15px;
+    }
+.botao a {
+    
+    border: none;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 5px;
+    background: rgb(69, 206, 247);
+    padding: 10px 20px;
+    }
+
+.botao a:hover {
+    box-shadow:  1px 2px 10px 10px rgba(69, 206, 247, 0.604);
+    }
+
+.back4-flex h2,p {
+    font-size: 1.7rem;
+    margin-top: 20px;
+    }
+  /*👉FOOTER👈*/
+.footer {
+    width: 100%;
+    height: 60vh;
+    background: #f1c055;
+    }
+
+.footer-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    }
+.logomarca1 {
+    max-width: 50%;
+    margin: 20px 0;
+    }
+
+.footer-flex p {
+    font-size: 1.5rem;
+    color: #363735;
+    }
+
+.footer-flex a {
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 5px;
+    margin: 5px 0px;
+    background: rgb(69, 206, 247);
+    padding: 5px 10px;
+    }
+    
+.footer-flex a:hover {
+    box-shadow:  1px 2px 10px 10px rgba(69, 206, 247, 0.604);
+    }
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 700px;
+    }
+    .fa-whatsapp {
+        display: none;
+    }
+    .ativo.menu {
+        transform: translate(40px, 60px);
+    }
+    .tres {
+        margin-top: 5px;
+        filter: brightness(1.4);
+    }
+    .dois {
+        margin-top: 5px;
+        filter: brightness(2.4);
+    }
+    .icon-x .dois {
+        transform: rotate(45deg) translate(5px, 6px);
+    }
+    .ativo.menu li {
+        font-size: 4.0rem;
+    }
+      /*👉 SECTION 1👈*/
+    .back1-flex h1{
+        font-size: 3.3rem;
+
+    }
+    .back1-flex p {
+        font-size: 1.7rem;
+    }
+    .back1-flex a {
+        font-size: 1.7rem;
+    }
+      /*👉 SECTION 2👈*/
+    .back2 {
+        width: 100%;
+        height: 65vh;
+    }
+    .back2-flex h2 {
+        line-height: 125%;
+        max-width: 400px;
+        margin-top: 30px;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+      /*👉 SECTION 3👈*/
+    .back3-flex h1 {
+        font-size: 2.5rem;
+        margin-top: 30px;
+    }
+    .back3-flex h3 {
+        margin-top: 40px;
+        font-size: 1.7rem;
+        line-height: 125%;
+        max-width: 400px;
+    }
+    .back3-flex a {
+        font-size: 1.8rem;
+        
+    }
+    .back3 {
+        width: 100%;
+        height: 35vh;
+    }
+      /*👉 SECTION 4👈*/
+    .back4 {
+        width: 100%;
+        height: 45vh;
+    }
+    .back4-flex {
+        display: flex;
+      flex-wrap: wrap;
+    
+    } 
+    .form1 input:hover {
+        padding: 1px;
+        margin: 0 auto;
+    }
+    .form2 textarea:hover{
+        padding: 1px;
+        margin: 0 auto;
+    } 
+    .form2 input {
+        transform: translate(-10px,-4px);
+    }
+    .back4-flex h1 {
+        margin: 30px 0px;
+    }
+   .botao{
+        margin: 20px;
+    }
+      /*👉FOOTER👈*/
+    .footer {
+        width: 100%;
+        height: 33.3vh;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1200px;
+    }
+    html {
+        overflow-x: hidden;
+    }
+    .menu {
+        display: block;
+    }
+    .menu li:hover {
+        background: rgb(69, 206, 247);
+        transition-duration: 0.4s;
+        border-radius: 5px;
+        box-shadow:  1px 1px 5px 10px rgb(69, 206, 247);
+        }
+    .menu a {
+        color: black;
+    }
+    .icon {
+        display: none;
+    }
+    .header-flex li {
+        font-size: 1.7rem;
+        margin: 0px 20px;
+    }
+    .header-flex ul {
+        font-size: 1.3rem;
+        transform: translate(-100px, 9px);
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+      /*👉 SECTION 1👈*/
+   .back1-flex {
+       display: flex;
+       flex-direction: row;
+    }
+   .back1-flex p {
+       max-width: 200px;
+       transform: translate(-220px,-50px);
+       font-size: 1.9rem;
+       text-align: left;
+    }
+   .back1-flex h1 {
+       transform: translate(160px,-130px);
+       font-size: 4.2rem;
+    }
+   .back1-flex a {
+         transform: translate(-420px, 20px);
+    }
+   .back1-flex img {
+    transform: translate(-188px, 0px);
+    }
+      /*👉 SECTION 2👈*/
+   .back2 {
+       width: 100%;
+       height: 70vh;
+    }
+   .back2-flex {
+       display: flex;
+       flex-direction: row;
+    } 
+   .back2-flex img {
+       max-width: 100%;
+       transform: translate(668px, -100px);
+    }
+   .back2-flex h1 {
+       font-size: 3.0rem;
+       transform: translate(439px, -20px);
+    }
+   .back2-flex h2 {
+       text-align: left;
+       transform: translate(-338px, 130px);
+       max-width: 600px;
+       font-size: 3.0rem;
+    }
+    .back2-flex a {
+        padding: 15px 40px;
+        transform: translate(-202px, 130px);
+    }
+
+      /*👉 SECTION 3👈*/
+    .back3 {
+        width: 100%;
+        height: 40vh;
+    }
+    .back3-flex h1 {
+        font-size: 2.9rem;
+    }
+    .back3-flex h3 {
+        font-size: 1.9rem;
+    }
+    .back3-flex a {
+        margin-top: 50px;
+    }
+    /*👉 SECTION 4👈*/
+    .back4 {
+        width: 100%;
+        height: 73vh;
+    }
+
+    .back4-flex h1 {
+        margin-top: 30px;
+        font-size: 2.9rem;
+    }
+    .form1 {
+        padding: 1px;
+    }
+    .form1 input {
+        padding: 15px;
+    }
+    .form2 input {
+        margin: 0px 10px;
+        padding: 15px 13px;
+        flex-wrap: wrap;
+        transform: translate(7px,30px);
+    }
+    .form2 textarea {
+        margin: 0px 10px;
+        padding: 15px 15px;
+        flex-wrap: wrap;
+        transform: translate(-13px,49px);
+    }
+    .form1 input:hover {
+        padding: 14px;
+    }
+    .form2 textarea:hover {
+        padding: 15px;
+    }
+    
+    .botao  {
+        margin-top: 55px;
+        font-size: 1.2rem;
+      
+    }
+    .botao a {
+        font-size: 1.6rem;
+        margin-top: 50px;
+        padding: 10px 50px;
+    }
+    .back4-flex h2 {
+        font-size: 1.9rem;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    .back4-flex p {
+        font-size: 1.7rem;
+    }
+   /*👉 FOOTER👈*/
+    .footer {
+        width: 100%;
+        height: 25vh;
+    }
+    .footer-flex {
+        display: flex;
+        flex-direction: row;
+        text-transform: uppercase;
+    }
+    .footer-flex  img {
+        transform: translate(0px, 40px);
+    }
+    .footer-flex a {
+        padding: 10px;
+        transform: translate(930px, 40px);
+
+    }
+    .footer-flex p {
+        transform: translate(-35px, 40px);
+        margin: 0px 10px;
+
+    }
+    }
+    .fa-whatsapp {
+        font-size: 4.0rem;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transform: translate(1455px,825px);
+        width: 3%;
+        z-index: 9999;
+        height: 5.0%;
+        text-align: center;
+        border-radius: 5px;
+        color: white;
+        background-color: forestgreen;
+    }
+    .fa-whatsapp {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    ::selection {
+        background-color: rgb(69, 206, 247);
+    }
+
+
