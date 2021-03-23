@@ -7,8 +7,8 @@ ___
 **Data:** 31/05/2021
 
 ## Tecnologias utilizadas:
-- **Visual studio code**
-- **Google firebase**
+- **Visual studio code IDE**
+- **Google firebase HOSTING**
 
 ## Site do projeto:
 https://projetochevrolet.web.app
