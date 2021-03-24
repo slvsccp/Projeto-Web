@@ -7,7 +7,7 @@ ___
 **Data:** 31/05/2021
 
 ## Tecnologias utilizadas:
-- **Visual studio code IDE**
+- **Visual studio code EDITOR**
 - **Google firebase HOSTING**
 
 ## Site do projeto:
