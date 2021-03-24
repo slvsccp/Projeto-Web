@@ -14,7 +14,7 @@ ___
 https://projetochevrolet.web.app
 
 ## Sobre o projeto
-<p>O objetivo deste projeto, é construir um <strong>Sistema WEB</strong> publica-lo em um provedor Cloud, no meu caso, Google firebase e versionar no Github.</p>
+<p>O objetivo deste projeto, é construir um <strong>Sistema Web</strong> versionando no Git & Github e publica-lo em um provedor Cloud, no meu caso, Google firebase.</p>
 
 ## Etapas
 1. Montar a estrutura html.
